@@ -7,7 +7,6 @@ int main() {
     Circle circle(5.0);
     Triangle triangle(3.0, 4.0);
     Rectangle rectangle(6.0, 2.0);
-    std::cout << "Hello Class" << std::endl;
 
     std::cout << circle.describe() << std::endl;
     std::cout << "Area: " << circle.getArea() << std::endl;
