@@ -21,5 +21,6 @@ double Circle::getCircumference() const {
 }
 
 std::string Circle::describe() const {
-    return "I am a Fantastic Circle with a radius of " + std::to_string(radius);
+
+    return "I am a Circle with a radius of " + std::to_string(radius);
 }
